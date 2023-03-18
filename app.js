@@ -13,7 +13,8 @@ app.use(
     crossOriginEmbedderPolicy: false,
     contentSecurityPolicy: {
       directives: {
-        imgSrc: ["'self'", "data:", "blob:"]
+        imgSrc: ["'self'", "data:", "blob:"],
+        scriptSrc: ["'self'", "https://cdn.jsdelivr.net"]
       }
     }
   })
