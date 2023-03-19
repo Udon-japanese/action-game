@@ -134,7 +134,7 @@ class MainScene extends Phaser.Scene {
 
   jumpCounter = 0;
   maxJumps = 2;
-  upLongPressCounter = -2;
+  upLongPressCounter = 0;
   maxLongPress = 25;
 
   update() {
