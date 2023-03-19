@@ -17,8 +17,9 @@ const config = {
     parent: 'game',
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
-    width: 800,
-    height: 600
+    width: 800 / window.devicePixelRatio,
+    height: 600 / window.devicePixelRatio,
+    zoom: 1 / window.devicePixelRatio
   }
 }
 const game = new Phaser.Game(config);
